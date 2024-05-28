@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: byekan;
+    src: url("font/B_Yekan/B_Yekan/Yekan.ttf") format("truetype");
+}
+@font-face {
+    font-family: laleh;
+    src: url("font/Lalezar-Font-fontyab.com_/Lalezar-Font/TTF/Lalezar-Regular.ttf") format("truetype");
+}
+body{
+    background-color: #164A41;
+    color: #164A41;
+}
+.container{
+    width: 1350px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #4D774E;
+    padding-top: 20px;
+    padding-right: 40px;
+    box-shadow: 0 0 40px black;
+}
+
+nav{
+    text-align: center;
+}
+.bar{
+    display: inline-block;
+    margin: 0 45px;
+    margin-bottom: 20px;
+}
+.bar a{
+    font-family: laleh;
+    font-size: 23px;
+    text-decoration: none;
+    color: #164A41;
+}
+.bar a:hover{
+    color: #F1B24A;
+    text-shadow: 0 0 25px #FFFFFF;
+}
+
+.box1{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: #9DC88D;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+.box1:hover{
+    background-color: #F1B24A;
+    cursor: pointer;
+    box-shadow: 0 0 25px #FFFFFF;
+}
+.box1:active{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.pic1{
+    width: 300px;
+    height: 300px;
+    background-color: #F1B24A;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.name1{
+    direction: ltr;
+    padding-left: 20px;
+    font-family: laleh;
+}
+.bio1{
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: byekan;
+}
+.price1{
+    padding-right: 20px;
+    font-family: laleh;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.box2{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin-right: 20px;
+    background-color: #9DC88D;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+.box2:hover{
+    background-color: #F1B24A;
+    cursor: pointer;
+    box-shadow: 0 0 25px #FFFFFF;
+}
+.box2:active{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.pic2{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.name2{
+    direction: ltr;
+    padding-left: 20px;
+    font-family: laleh;
+}
+.bio2{
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: byekan;
+}
+.price2{
+    padding-right: 20px;
+    font-family: laleh;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.box3{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+     margin-right: 20px;
+    background-color: #9DC88D;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+.box3:hover{
+    background-color: #F1B24A;
+    cursor: pointer;
+    box-shadow: 0 0 25px #FFFFFF;
+}
+.box3:active{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.pic3{
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.name3{
+    direction: ltr;
+    padding-left: 20px;
+    font-family: laleh;
+}
+.bio3{
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: byekan;
+}
+.price3{
+    padding-right: 20px;
+    font-family: laleh;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.box4{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin-right: 20px;
+    background-color: #9DC88D;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+.box4:hover{
+    background-color: #F1B24A;
+    cursor: pointer;
+    box-shadow: 0 0 25px #FFFFFF;
+}
+.box4:active{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.pic4{
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.name4{
+    direction: ltr;
+    padding-left: 20px;
+    font-family: laleh;
+}
+.bio4{
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: byekan;
+}
+.price4{
+    padding-right: 20px;
+    font-family: laleh;
+    font-size: 20px;
+    margin-top: 5px;
+}
